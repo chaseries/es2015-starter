@@ -1,5 +1,5 @@
 // Transpiles to Babel
-require("./scss/main.scss");
+import "./scss/main.scss";
 
 const main = function main() {
   console.log("It works!");
