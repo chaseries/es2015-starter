@@ -13,13 +13,13 @@ module.exports = {
     loaders: [
       { test: /\.js$/,
         exclude: [ /node_modules/ ],
-        loaders: [ 
+        loaders: [
           "babel-loader",
           "eslint-loader"
           ]
       },
       { test: /\.(css|scss)$/,
-        loaders: [ 
+        loaders: [
           "style-loader",
           "css-loader",
           "sass-loader"
